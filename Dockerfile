@@ -2,7 +2,7 @@ FROM cimg/android:2022.09.2-ndk
 
 RUN sudo apt update
 RUN sudo apt -y upgrade
-RUN sudo apt -y install clang-12
+RUN sudo apt -y install clang-12 swig
 
 RUN wget -q -O - https://go.dev/dl/go1.19.1.linux-amd64.tar.gz | sudo tar -C /usr/local -xzf -
 

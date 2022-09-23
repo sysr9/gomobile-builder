@@ -1,4 +1,4 @@
-FROM cimg/android:2022.03.1-ndk
+FROM cimg/android:2022.09.2-ndk
 
 RUN sudo apt update
 RUN sudo apt -y upgrade
